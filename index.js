@@ -51,9 +51,8 @@ const questions = [{
 // function to write README file
 function writeToFile(fileName, data) {
 
-  console.log(data.title);
 
-  fs.writeFile(fileName, (data.title), (err) => {
+  fs.writeFile(fileName, (generateMarkdown(data)), (err) => {
     if (err) {
       console.log(err)
     } else {
@@ -69,7 +68,7 @@ function init() {
     .prompt(questions)
     .then((response) =>
       response ?
-      (console.log(response), writeToFile('test.txt', response)) :
+      (console.log(response), generateMarkdown(response), writeToFile('test.txt', response)) :
       console.log('You forgot to answer')
     );
 
