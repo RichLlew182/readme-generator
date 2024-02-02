@@ -68,7 +68,7 @@ function init() {
     .prompt(questions)
     .then((response) =>
       response ?
-      (console.log(response), generateMarkdown(response), writeToFile('output/README.md', response)) :
+      (console.log(response), writeToFile('output/README.md', response)) :
       console.log('You forgot to answer')
     );
 

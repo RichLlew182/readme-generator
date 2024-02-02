@@ -1,13 +1,10 @@
-# My Awesome Project
+# fun title
   <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
       <a href="#description">Description</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
         <a href="#installation">Installation</a>
@@ -21,5 +18,5 @@
 
 ## Description
 
-A readme generator which is awesome
+a very cool description
 
