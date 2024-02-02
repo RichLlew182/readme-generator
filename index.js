@@ -1,7 +1,7 @@
-// const fs = require("fs");
-// const path = require('path');
+const fs = require("fs");
+const path = require('path');
 const inquirer = require("inquirer");
-// const generateMarkdown = require("./utils/generateMarkdown");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
 const questions = [{
@@ -25,9 +25,10 @@ const questions = [{
     name: 'usage',
   },
   {
-    type: 'input',
+    type: 'list',
     message: 'Which license should your project use?',
     name: 'license',
+    choices: ['MIT', 'Other License', 'One More License']
   },
   {
     type: 'input',
@@ -48,7 +49,10 @@ const questions = [{
 ];
 
 // function to write README file
-// function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+
+  console.log(data.title)
+}
 
 // function to initialize program
 function init() {
@@ -57,10 +61,9 @@ function init() {
     .prompt(questions)
     .then((response) =>
       response ?
-      console.log(response) :
+      (console.log(response), writeToFile('test.txt', response)) :
       console.log('You forgot to answer')
     );
-
 
 }
 
