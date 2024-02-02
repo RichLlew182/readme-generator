@@ -51,19 +51,18 @@ const questions = [{
 // function writeToFile(fileName, data) {}
 
 // function to initialize program
-// function init() {
+function init() {
+
+  inquirer
+    .prompt(questions)
+    .then((response) =>
+      response ?
+      console.log(response) :
+      console.log('You forgot to answer')
+    );
 
 
-
-// }
+}
 
 // function call to initialize program
-// init();
-
-inquirer
-  .prompt(questions)
-  .then((response) =>
-    response ?
-    console.log(response) :
-    console.log('You forgot to answer')
-  );
+init();
