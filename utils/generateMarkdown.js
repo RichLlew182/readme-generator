@@ -29,7 +29,7 @@ ${data.usage}
 
 ## License
 
-${data.License}
+${data.license}
 
 ## Contribution
 

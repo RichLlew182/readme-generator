@@ -1,4 +1,4 @@
-# Cool
+# My cool project
   <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -15,23 +15,23 @@
 
 ## Description
 
-Here's a description
+It's very cool
 
 ## Installation
 
-Step 1 Step 2
+Step 1, Step 2, Step 3
 
 ## Usage
 
-Usage this
+User friendly
 
 ## License
 
-undefined
+MIT
 
 ## Contribution
 
-Sure thing
+Go for it
 
 ## Testing
 
@@ -39,5 +39,5 @@ N/A
 
 ## Questions
 
-If you have any questions about the project you can reach me by email at rich@email.com
+If you have any questions about the project you can reach me by email at richard@gmail.com
 
