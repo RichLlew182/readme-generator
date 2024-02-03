@@ -1,6 +1,9 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+
+  return `[![License: ${data.license}](${licenseBadge})](${licenseURL})
+  
+  # ${data.title}
   <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -29,7 +32,8 @@ ${data.usage}
 
 ## License
 
-${data.license}
+
+Distributed under the ${data.license} License.
 
 ## Contribution
 

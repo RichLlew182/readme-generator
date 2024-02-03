@@ -1,4 +1,6 @@
-# My cool project
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
+  # Title
   <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -15,23 +17,24 @@
 
 ## Description
 
-It's very cool
+desc
 
 ## Installation
 
-Step 1, Step 2, Step 3
+steps
 
 ## Usage
 
-User friendly
+usage
 
 ## License
 
-MIT
+
+Distributed under the MIT License.
 
 ## Contribution
 
-Go for it
+contr
 
 ## Testing
 
@@ -39,5 +42,5 @@ N/A
 
 ## Questions
 
-If you have any questions about the project you can reach me by email at richard@gmail.com
+If you have any questions about the project you can reach me by email at email
 

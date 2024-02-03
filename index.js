@@ -28,7 +28,7 @@ const questions = [{
     type: 'list',
     message: 'Which license should your project use?',
     name: 'license',
-    choices: ['MIT', 'Other License', 'One More License']
+    choices: ['MIT', 'Apache', 'GPL']
   },
   {
     type: 'input',
@@ -50,6 +50,11 @@ const questions = [{
 
 // function to write README file
 function writeToFile(fileName, data) {
+
+  if (data.license === 'MIT') {
+    licenseBadge = 'https://img.shields.io/badge/License-MIT-yellow.svg';
+    licenseURL = 'https://opensource.org/licenses/MIT'
+  }
 
 
   fs.writeFile(fileName, (generateMarkdown(data)), (err) => {
