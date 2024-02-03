@@ -1,6 +1,6 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# My Proj
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
-  # Title
   <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -34,7 +34,7 @@ Distributed under the MIT License.
 
 ## Contribution
 
-contr
+nah
 
 ## Testing
 
@@ -42,5 +42,5 @@ N/A
 
 ## Questions
 
-If you have any questions about the project you can reach me by email at email
+If you have any questions about the project you can reach me by email at richard@gmail.com
 
