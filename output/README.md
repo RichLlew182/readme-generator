@@ -1,5 +1,5 @@
-# Title
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# 
+  [![License: Boost 1.0](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
   
   <!-- TABLE OF CONTENTS -->
 <details>
@@ -17,31 +17,31 @@
 
 ## Description
 
-Desc
+
 
 ## Installation
 
 ~~~ sh
-  Steps
+  
   ~~~ 
 
 ## Usage
 
-Usage
+
 
 ## License
 
-Distributed under the MIT License. Click [here](https://opensource.org/licenses/MIT) for more information.
+Distributed under the Boost 1.0 License. Click [here](https://www.boost.org/LICENSE_1_0.txt) for more information.
 
 ## Contribution
 
-Rules
+
 
 ## Testing
 
-Steps
+
 
 ## Questions
 
-If you have any questions about the project you can reach me by email at myemail@email.com
+If you have any questions about the project you can reach me by email at 
 

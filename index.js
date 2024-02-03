@@ -28,7 +28,7 @@ const questions = [{
     type: 'list',
     message: 'Which license should your project use?',
     name: 'license',
-    choices: ['MIT', 'Apache 2.0', 'GPL 3.0']
+    choices: ['Apache 2.0', 'Boost 1.0', 'BSD 3-Clause License', 'Creative Commons CC0', 'GPL 3.0', 'MIT']
   },
   {
     type: 'input',
@@ -63,6 +63,18 @@ function writeToFile(fileName, data) {
     case 'GPL 3.0':
       licenseBadge = 'https://img.shields.io/badge/License-GPLv3-blue.svg';
       licenseURL = 'https://www.gnu.org/licenses/gpl-3.0';
+      break;
+    case 'Creative Commons CC0':
+      licenseBadge = 'https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg';
+      licenseURL = 'http://creativecommons.org/publicdomain/zero/1.0/';
+      break;
+    case 'Boost 1.0':
+      licenseBadge = 'https://img.shields.io/badge/License-Boost_1.0-lightblue.svg';
+      licenseURL = 'https://www.boost.org/LICENSE_1_0.txt';
+      break;
+    case 'BSD 3-Clause License':
+      licenseBadge = 'https://img.shields.io/badge/License-BSD_3--Clause-blue.svg';
+      licenseURL = 'https://opensource.org/licenses/BSD-3-Clause';
       break;
     default:
       console.log('No License Selected')
