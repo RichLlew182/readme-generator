@@ -24,14 +24,15 @@ ${data.description}
 
 ## Installation
 
-${data.installation}
+~~~ sh
+  ${data.installation}
+  ~~~ 
 
 ## Usage
 
 ${data.usage}
 
 ## License
-
 
 Distributed under the ${data.license} License. Click badge at top of the readme for more information.
 
@@ -41,7 +42,7 @@ ${data.contribution}
 
 ## Testing
 
-N/A
+${data.testing}
 
 ## Questions
 

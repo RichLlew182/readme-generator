@@ -1,4 +1,4 @@
-# My Proj
+# Title
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   <!-- TABLE OF CONTENTS -->
@@ -17,30 +17,31 @@
 
 ## Description
 
-desc
+dscription
 
 ## Installation
 
-steps
+~~~ sh
+  node index.js
+  ~~~ 
 
 ## Usage
 
-usage
+use
 
 ## License
 
-
-Distributed under the MIT License.
+Distributed under the MIT License. Click badge at top of the readme for more information.
 
 ## Contribution
 
-nah
+rules
 
 ## Testing
 
-N/A
+steps
 
 ## Questions
 
-If you have any questions about the project you can reach me by email at richard@gmail.com
+If you have any questions about the project you can reach me by email at email@email.com
 

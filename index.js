@@ -16,7 +16,7 @@ const questions = [{
   },
   {
     type: 'input',
-    message: 'Are there any steps to install your project?',
+    message: 'Please outline any steps to install your project?',
     name: 'installation',
   },
   {
