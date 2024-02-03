@@ -38,7 +38,7 @@ const questions = [{
   {
     type: 'input',
     message: 'Please outline any steps for testing your project. If there are none please type N/A or press enter.',
-    name: 'testing',
+    name: 'tests',
   },
   {
     type: 'input',

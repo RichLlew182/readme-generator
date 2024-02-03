@@ -13,7 +13,7 @@ function generateMarkdown(data) {
     <li><a href="#usage">Usage</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#testing">Testing</a></li>
+    <li><a href="#tests">Tests</a></li>
     <li><a href="#questions">Questions</a></li>
   </ol>
 </details>
@@ -40,9 +40,9 @@ Distributed under the ${data.license} License. Click [here](${licenseURL}) for m
 
 ${data.contributing}
 
-## Testing
+## Tests
 
-${data.testing}
+${data.tests}
 
 ## Questions
 
