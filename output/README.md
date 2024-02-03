@@ -1,5 +1,5 @@
-# Title
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# my Title
+  [![License: GPL 3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
   
   <!-- TABLE OF CONTENTS -->
 <details>
@@ -17,31 +17,31 @@
 
 ## Description
 
-dscription
+desc
 
 ## Installation
 
 ~~~ sh
-  node index.js
+  my steps
   ~~~ 
 
 ## Usage
 
-use
+usage
 
 ## License
 
-Distributed under the MIT License. Click badge at top of the readme for more information.
+Distributed under the GPL 3.0 License. Click badge at top of the readme for more information.
 
 ## Contribution
 
-rules
+yes
 
 ## Testing
 
-steps
+test
 
 ## Questions
 
-If you have any questions about the project you can reach me by email at email@email.com
+If you have any questions about the project you can reach me by email at myemail@email.com
 

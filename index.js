@@ -16,7 +16,7 @@ const questions = [{
   },
   {
     type: 'input',
-    message: 'Please outline any steps to install your project?',
+    message: 'Please any steps to install your project?',
     name: 'installation',
   },
   {
@@ -28,7 +28,7 @@ const questions = [{
     type: 'list',
     message: 'Which license should your project use?',
     name: 'license',
-    choices: ['MIT', 'Apache', 'GPL']
+    choices: ['MIT', 'Apache 2.0', 'GPL 3.0']
   },
   {
     type: 'input',
@@ -51,9 +51,30 @@ const questions = [{
 // function to write README file
 function writeToFile(fileName, data) {
 
-  if (data.license === 'MIT') {
-    licenseBadge = 'https://img.shields.io/badge/License-MIT-yellow.svg';
-    licenseURL = 'https://opensource.org/licenses/MIT'
+  // let licenseBadge;
+  // let licenseURL;
+
+  // if (data.license === 'MIT') {
+  //   licenseBadge = 'https://img.shields.io/badge/License-MIT-yellow.svg';
+  //   licenseURL = 'https://opensource.org/licenses/MIT'
+  // }
+
+  switch (data.license) {
+    case 'MIT':
+      licenseBadge = 'https://img.shields.io/badge/License-MIT-yellow.svg';
+      licenseURL = 'https://opensource.org/licenses/MIT'
+      break;
+    case 'Apache 2.0':
+      licenseBadge = 'https://img.shields.io/badge/License-Apache_2.0-blue.svg';
+      licenseURL = 'https://opensource.org/licenses/Apache-2.0';
+      break;
+    case 'GPL 3.0':
+      licenseBadge = 'https://img.shields.io/badge/License-GPLv3-blue.svg';
+      licenseURL = 'https://www.gnu.org/licenses/gpl-3.0';
+      break;
+    default:
+      console.log('No License Selected')
+      break;
   }
 
 
