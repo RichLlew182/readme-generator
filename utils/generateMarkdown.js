@@ -12,7 +12,7 @@ function generateMarkdown(data) {
     <li><a href="#installation">Installation</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contribution">Contribution</a></li>
+    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#testing">Testing</a></li>
     <li><a href="#questions">Questions</a></li>
   </ol>
@@ -36,9 +36,9 @@ ${data.usage}
 
 Distributed under the ${data.license} License. Click [here](${licenseURL}) for more information.
 
-## Contribution
+## Contributing
 
-${data.contribution}
+${data.contributing}
 
 ## Testing
 
@@ -46,7 +46,7 @@ ${data.testing}
 
 ## Questions
 
-If you have any questions about the project you can reach me by email at ${data.questions}
+If you have any questions about the project you can reach me at my GitHub Profile: [github.com/${data.username}](https://github.com/${data.username}) or by email at ${data.email}
 
 `;
 }

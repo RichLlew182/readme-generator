@@ -1,5 +1,5 @@
 # 
-  [![License: Boost 1.0](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+  [![License: BSD 3-Clause License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
   
   <!-- TABLE OF CONTENTS -->
 <details>
@@ -9,7 +9,7 @@
     <li><a href="#installation">Installation</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contribution">Contribution</a></li>
+    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#testing">Testing</a></li>
     <li><a href="#questions">Questions</a></li>
   </ol>
@@ -31,9 +31,9 @@
 
 ## License
 
-Distributed under the Boost 1.0 License. Click [here](https://www.boost.org/LICENSE_1_0.txt) for more information.
+Distributed under the BSD 3-Clause License License. Click [here](https://opensource.org/licenses/BSD-3-Clause) for more information.
 
-## Contribution
+## Contributing
 
 
 
@@ -43,5 +43,5 @@ Distributed under the Boost 1.0 License. Click [here](https://www.boost.org/LICE
 
 ## Questions
 
-If you have any questions about the project you can reach me by email at 
+If you have any questions about the project you can reach me at my GitHub Profile: [github.com/RichLlew182](https://www.github.com/RichLlew182) or by email at rich@rich.com
 

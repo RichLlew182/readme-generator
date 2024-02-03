@@ -33,7 +33,7 @@ const questions = [{
   {
     type: 'input',
     message: 'Please outline any rules for contributing to your project. If there are none please type N/A or press enter.',
-    name: 'contribution',
+    name: 'contributing',
   },
   {
     type: 'input',
@@ -42,8 +42,13 @@ const questions = [{
   },
   {
     type: 'input',
-    message: 'Please enter your email address for questions',
-    name: 'questions',
+    message: 'Please enter your GitHub username.',
+    name: 'username',
+  },
+  {
+    type: 'input',
+    message: 'Please enter your email address.',
+    name: 'email',
   },
 
 ];
@@ -51,6 +56,7 @@ const questions = [{
 // function to write README file
 function writeToFile(fileName, data) {
 
+  // Switch statement that checks the answer to the license question and adds the relevant badge and URL for that license
   switch (data.license) {
     case 'MIT':
       licenseBadge = 'https://img.shields.io/badge/License-MIT-yellow.svg';
@@ -80,6 +86,8 @@ function writeToFile(fileName, data) {
       console.log('No License Selected')
       break;
   }
+
+  //function to wriet to file which takes in the filename from the init function, then passes the response data into the generateMarkdown function
 
   fs.writeFile(fileName, (generateMarkdown(data)), (err) => {
     if (err) {
