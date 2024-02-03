@@ -1,5 +1,5 @@
-# my Title
-  [![License: GPL 3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+# Title
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   <!-- TABLE OF CONTENTS -->
 <details>
@@ -17,29 +17,29 @@
 
 ## Description
 
-desc
+Desc
 
 ## Installation
 
 ~~~ sh
-  my steps
+  Steps
   ~~~ 
 
 ## Usage
 
-usage
+Usage
 
 ## License
 
-Distributed under the GPL 3.0 License. Click badge at top of the readme for more information.
+Distributed under the MIT License. Click [here](https://opensource.org/licenses/MIT) for more information.
 
 ## Contribution
 
-yes
+Rules
 
 ## Testing
 
-test
+Steps
 
 ## Questions
 

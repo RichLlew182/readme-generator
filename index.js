@@ -16,12 +16,12 @@ const questions = [{
   },
   {
     type: 'input',
-    message: 'Please any steps to install your project?',
+    message: 'Please outline any steps to install your project. If there are none please type N/A or press enter.',
     name: 'installation',
   },
   {
     type: 'input',
-    message: 'Please explain the usage of your project',
+    message: 'Please explain the usage of your project.',
     name: 'usage',
   },
   {
@@ -32,12 +32,12 @@ const questions = [{
   },
   {
     type: 'input',
-    message: 'Are there any rules for Contributing to your project',
+    message: 'Please outline any rules for contributing to your project. If there are none please type N/A or press enter.',
     name: 'contribution',
   },
   {
     type: 'input',
-    message: 'Are there any steps for testing your project',
+    message: 'Please outline any steps for testing your project. If there are none please type N/A or press enter.',
     name: 'testing',
   },
   {
@@ -50,14 +50,6 @@ const questions = [{
 
 // function to write README file
 function writeToFile(fileName, data) {
-
-  // let licenseBadge;
-  // let licenseURL;
-
-  // if (data.license === 'MIT') {
-  //   licenseBadge = 'https://img.shields.io/badge/License-MIT-yellow.svg';
-  //   licenseURL = 'https://opensource.org/licenses/MIT'
-  // }
 
   switch (data.license) {
     case 'MIT':
@@ -76,7 +68,6 @@ function writeToFile(fileName, data) {
       console.log('No License Selected')
       break;
   }
-
 
   fs.writeFile(fileName, (generateMarkdown(data)), (err) => {
     if (err) {

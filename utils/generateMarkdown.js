@@ -34,7 +34,7 @@ ${data.usage}
 
 ## License
 
-Distributed under the ${data.license} License. Click badge at top of the readme for more information.
+Distributed under the ${data.license} License. Click [here](${licenseURL}) for more information.
 
 ## Contribution
 
