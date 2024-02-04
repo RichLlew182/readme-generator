@@ -1,6 +1,12 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
 
+  if (data.installationChoice === false) {
+
+    data.installation = 'N/A';
+
+  }
+
   return `# ${data.title}
   [![License: ${data.license}](${licenseBadge})](${licenseURL})
   

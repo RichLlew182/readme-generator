@@ -1,5 +1,5 @@
 # title
-  [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: Creative Commons CC0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
   
   <!-- TABLE OF CONTENTS -->
 <details>
@@ -23,7 +23,7 @@ desc
 
 
   ~~~sh 
-npm install inquirer
+node index.js
 ~~~
 
 ## Usage
@@ -32,7 +32,7 @@ usage
 
 ## License
 
-Distributed under the Apache 2.0 License. Click [here](https://opensource.org/licenses/Apache-2.0) for more information.
+Distributed under the Creative Commons CC0 License. Click [here](http://creativecommons.org/publicdomain/zero/1.0/) for more information.
 
 ## Contributing
 
@@ -44,5 +44,5 @@ N/A
 
 ## Questions
 
-If you have any questions about the project you can reach me at my GitHub Profile: [github.com/undefined](https://github.com/undefined) or by email at undefined
+If you have any questions about the project you can reach me at my GitHub Profile: [github.com/RichLlew182](https://github.com/RichLlew182) or by email at richard.lee.llewellyn@gmail.com
 
