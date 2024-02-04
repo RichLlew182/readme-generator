@@ -34,15 +34,12 @@ const questions = [{
     when: function (answers) {
       return answers.installationChoice;
     },
-    validate: function (input) {
-      return input !== '' ? true : 'You must enter installation instructions';
-    },
     filter: function (input) {
-      return `
-~~~sh 
-${input} 
+      return input === '' ? 'N/A' :
+        `~~~sh 
+${input}
 ~~~`;
-    }
+    },
   },
   {
     type: 'input',
@@ -73,24 +70,24 @@ ${input}
       return input === '' ? 'N/A' : input;
     }
   },
-  {
-    type: 'input',
-    message: 'Please enter your GitHub username.',
-    name: 'username',
-    validate: function (input) {
-      const usernameCheck = /^[a-zA-Z0-9-]+$/;
-      return usernameCheck.test(input) ? true : 'That is not a valid GitHub username'
-    }
-  },
-  {
-    type: 'input',
-    message: 'Please enter your email address.',
-    name: 'email',
-    validate: function (input) {
-      const emailCheck = /\S+@\S+\.\S+/;
-      return emailCheck.test(input) ? true : 'You must enter a valid email address'
-    }
-  },
+  // {
+  //   type: 'input',
+  //   message: 'Please enter your GitHub username.',
+  //   name: 'username',
+  //   validate: function (input) {
+  //     const usernameCheck = /^[a-zA-Z0-9-]+$/;
+  //     return usernameCheck.test(input) ? true : 'That is not a valid GitHub username'
+  //   }
+  // },
+  // {
+  //   type: 'input',
+  //   message: 'Please enter your email address.',
+  //   name: 'email',
+  //   validate: function (input) {
+  //     const emailCheck = /\S+@\S+\.\S+/;
+  //     return emailCheck.test(input) ? true : 'You must enter a valid email address'
+  //   }
+  // },
 
 ];
 

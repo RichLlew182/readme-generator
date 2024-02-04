@@ -17,14 +17,13 @@
 
 ## Description
 
-d
+desc
 
 ## Installation
 
 
-  
-~~~sh 
-node index.js 
+  ~~~sh 
+npm install inquirer
 ~~~
 
 ## Usage
@@ -45,5 +44,5 @@ N/A
 
 ## Questions
 
-If you have any questions about the project you can reach me at my GitHub Profile: [github.com/rich](https://github.com/rich) or by email at rich@gmail.com
+If you have any questions about the project you can reach me at my GitHub Profile: [github.com/undefined](https://github.com/undefined) or by email at undefined
 
