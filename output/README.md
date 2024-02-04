@@ -1,5 +1,5 @@
 # title
-  [![License: Creative Commons CC0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+  [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   
   <!-- TABLE OF CONTENTS -->
 <details>
@@ -22,17 +22,18 @@ desc
 ## Installation
 
 
-  ~~~sh 
+  To install this app, please navigate to the relevant folder and then run the following in your terminal:
+~~~sh
 node index.js
 ~~~
 
 ## Usage
 
-usage
+N/A
 
 ## License
 
-Distributed under the Creative Commons CC0 License. Click [here](http://creativecommons.org/publicdomain/zero/1.0/) for more information.
+Distributed under the Apache 2.0 License. Click [here](https://opensource.org/licenses/Apache-2.0) for more information.
 
 ## Contributing
 
@@ -44,5 +45,5 @@ N/A
 
 ## Questions
 
-If you have any questions about the project you can reach me at my GitHub Profile: [github.com/RichLlew182](https://github.com/RichLlew182) or by email at richard.lee.llewellyn@gmail.com
+If you have any questions about the project you can reach me at my GitHub Profile: [github.com/richLlew182](https://github.com/richLlew182) or by email at rich@gmail.com
 

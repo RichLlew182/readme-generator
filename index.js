@@ -36,7 +36,8 @@ const questions = [{
     },
     filter: function (input) {
       return input === '' ? 'N/A' :
-        `~~~sh 
+        `To install this app, please navigate to the relevant folder and then run the following in your terminal:
+~~~sh
 ${input}
 ~~~`;
     },
@@ -46,6 +47,10 @@ ${input}
     type: 'input',
     message: 'Please explain the usage of your project.',
     name: 'usage',
+    filter: function (input) {
+      // If the input is an empty string, change it to 'N/A'
+      return input === '' ? 'N/A' : input;
+    }
   },
   {
     type: 'list',
