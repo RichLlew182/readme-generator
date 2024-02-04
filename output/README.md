@@ -1,4 +1,4 @@
-# t
+# title
   [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   
   <!-- TABLE OF CONTENTS -->
@@ -21,13 +21,15 @@ d
 
 ## Installation
 
-~~~ sh
-  N/A
-  ~~~ 
+
+  
+~~~sh 
+node index.js 
+~~~
 
 ## Usage
 
-
+usage
 
 ## License
 
@@ -43,5 +45,5 @@ N/A
 
 ## Questions
 
-If you have any questions about the project you can reach me at my GitHub Profile: [github.com/RichLlew182](https://github.com/RichLlew182) or by email at rich@gmail.com
+If you have any questions about the project you can reach me at my GitHub Profile: [github.com/rich](https://github.com/rich) or by email at rich@gmail.com
 

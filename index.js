@@ -23,12 +23,25 @@ const questions = [{
     }
   },
   {
+    type: 'confirm',
+    message: 'Are there any steps to install your project?',
+    name: 'installationChoice',
+  },
+  {
     type: 'input',
-    message: 'Please outline any steps to install your project. If there are none please type N/A or press enter.',
     name: 'installation',
+    message: 'Please provide additional installation information:',
+    when: function (answers) {
+      return answers.installationChoice;
+    },
+    validate: function (input) {
+      return input !== '' ? true : 'You must enter installation instructions';
+    },
     filter: function (input) {
-      // If the input is an empty string, change it to 'N/A'
-      return input === '' ? 'N/A' : input;
+      return `
+~~~sh 
+${input} 
+~~~`;
     }
   },
   {
