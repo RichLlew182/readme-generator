@@ -64,6 +64,10 @@ const questions = [{
     type: 'input',
     message: 'Please enter your GitHub username.',
     name: 'username',
+    validate: function (input) {
+      const usernameCheck = /^[a-zA-Z0-9-]+$/;
+      return usernameCheck.test(input) ? true : 'That is not a valid GitHub username'
+    }
   },
   {
     type: 'input',

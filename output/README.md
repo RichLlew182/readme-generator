@@ -1,4 +1,4 @@
-# Title
+# t
   [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   
   <!-- TABLE OF CONTENTS -->
@@ -17,7 +17,7 @@
 
 ## Description
 
-Desc
+d
 
 ## Installation
 
@@ -27,7 +27,7 @@ Desc
 
 ## Usage
 
-Usability
+
 
 ## License
 
@@ -43,5 +43,5 @@ N/A
 
 ## Questions
 
-If you have any questions about the project you can reach me at my GitHub Profile: [github.com/RichLlew182](https://github.com/RichLlew182) or by email at Richrich@gmail.com
+If you have any questions about the project you can reach me at my GitHub Profile: [github.com/RichLlew182](https://github.com/RichLlew182) or by email at rich@gmail.com
 
