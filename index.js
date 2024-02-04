@@ -8,6 +8,10 @@ const questions = [{
     type: 'input',
     message: 'What is the title of your project?',
     name: 'title',
+    validate: function (input) {
+      // You can apply custom validation logic here
+      return input !== '' ? true : 'You must enter a title';
+    }
   },
   {
     type: 'input',
