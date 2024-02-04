@@ -76,6 +76,7 @@ ${input}
     message: 'Please enter your GitHub username.',
     name: 'username',
     validate: function (input) {
+      // Checks if username contains only alphanumeric characters and hyphens, no underscores allowed
       const usernameCheck = /^[a-zA-Z0-9-]+$/;
       return usernameCheck.test(input) ? true : 'That is not a valid GitHub username'
     }
@@ -85,6 +86,7 @@ ${input}
     message: 'Please enter your email address.',
     name: 'email',
     validate: function (input) {
+      // Checks if email is a valid email address, by checking for string, @, string, ., string, e.g 'richard' '@' 'gmail' '.' 'com' 
       const emailCheck = /\S+@\S+\.\S+/;
       return emailCheck.test(input) ? true : 'You must enter a valid email address'
     }
