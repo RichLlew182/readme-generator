@@ -10,18 +10,26 @@ const questions = [{
     name: 'title',
     validate: function (input) {
       // You can apply custom validation logic here
-      return input !== '' ? true : 'You must enter a title';
+      return input !== '' ? true : 'You must enter a title of your project';
     }
   },
   {
     type: 'input',
     message: 'Please write a description for your project',
     name: 'description',
+    validate: function (input) {
+      // You can apply custom validation logic here
+      return input !== '' ? true : 'You must enter a description of your project';
+    }
   },
   {
     type: 'input',
     message: 'Please outline any steps to install your project. If there are none please type N/A or press enter.',
     name: 'installation',
+    filter: function (input) {
+      // If the input is an empty string, change it to 'N/A'
+      return input === '' ? 'N/A' : input;
+    }
   },
   {
     type: 'input',
