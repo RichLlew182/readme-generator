@@ -90,7 +90,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Richard Llewellyn - richard.lee.llewellyn@gmail.com 
 
-Sample README file: [https://github.com/RichLlew182/readme-generator](https://github.com/RichLlew182/readme-generator)
+Sample README file: [https://github.com/RichLlew182/readme-generator/blob/main/output/README.md](https://github.com/RichLlew182/readme-generator/blob/main/output/README.md)
 
 Video Presentation Link: [https://richllew182.github.io/weather-dashboard/](https://richllew182.github.io/weather-dashboard/)
 
