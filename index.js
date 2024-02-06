@@ -8,7 +8,7 @@ const questions = [{
     type: 'input',
     message: 'What is the title of your project?',
     name: 'title',
-    validate: function (input) {
+    validate: (input) => {
       // If the input is an empty string, alert that user must enter a title
       return input !== '' ? true : 'You must enter a title of your project';
     }
@@ -17,7 +17,7 @@ const questions = [{
     type: 'input',
     message: 'Please write a description for your project',
     name: 'description',
-    validate: function (input) {
+    validate: (input) => {
       // If the input is an empty string, alert that user must enter a description
       return input !== '' ? true : 'You must enter a description of your project';
     }
@@ -31,10 +31,10 @@ const questions = [{
     type: 'input',
     name: 'installation',
     message: 'Please provide additional installation information:',
-    when: function (answers) {
+    when: (answers) => {
       return answers.installationChoice
     },
-    filter: function (input) {
+    filter: (input) => {
       return input === '' ? 'N/A' :
         `To install this app, please navigate to the relevant folder and then run the following in your terminal:
 ~~~sh
@@ -47,7 +47,7 @@ ${input}
     type: 'input',
     message: 'Please explain the usage of your project.',
     name: 'usage',
-    filter: function (input) {
+    filter: (input) => {
       // If the input is an empty string, change it to 'N/A'
       return input === '' ? 'N/A' : input;
     }
@@ -62,7 +62,7 @@ ${input}
     type: 'input',
     message: 'Please outline any rules for contributing to your project. If there are none please type N/A or press enter.',
     name: 'contributing',
-    filter: function (input) {
+    filter: (input) => {
       // If the input is an empty string, change it to 'N/A'
       return input === '' ? 'N/A' : input;
     }
@@ -71,7 +71,7 @@ ${input}
     type: 'input',
     message: 'Please outline any steps for testing your project. If there are none please type N/A or press enter.',
     name: 'tests',
-    filter: function (input) {
+    filter: (input) => {
       // If the input is an empty string, change it to 'N/A'
       return input === '' ? 'N/A' : input;
     }
@@ -80,7 +80,7 @@ ${input}
     type: 'input',
     message: 'Please enter your GitHub username.',
     name: 'username',
-    validate: function (input) {
+    validate: (input) => {
       // Checks if username contains only alphanumeric characters and hyphens, no underscores allowed
       const usernameCheck = /^[a-zA-Z0-9-]+$/;
       return usernameCheck.test(input) ? true : 'That is not a valid GitHub username'
@@ -90,7 +90,7 @@ ${input}
     type: 'input',
     message: 'Please enter your email address.',
     name: 'email',
-    validate: function (input) {
+    validate: (input) => {
       // Checks if email is a valid email address, by checking for string, @, string, ., string, e.g 'richard' '@' 'gmail' '.' 'com' 
       const emailCheck = /\S+@\S+\.\S+/;
       return emailCheck.test(input) ? true : 'You must enter a valid email address'

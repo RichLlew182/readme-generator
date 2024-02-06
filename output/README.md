@@ -1,5 +1,5 @@
 # title
-  [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: BSD 3-Clause License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
   
   <!-- TABLE OF CONTENTS -->
 <details>
@@ -29,11 +29,11 @@ node index.js
 
 ## Usage
 
-N/A
+use it like this
 
 ## License
 
-Distributed under the Apache 2.0 License. Click [here](https://opensource.org/licenses/Apache-2.0) for more information.
+Distributed under the BSD 3-Clause License License. Click [here](https://opensource.org/licenses/BSD-3-Clause) for more information.
 
 ## Contributing
 
@@ -45,5 +45,5 @@ N/A
 
 ## Questions
 
-If you have any questions about the project you can reach me at my GitHub Profile: [github.com/richLlew182](https://github.com/richLlew182) or by email at rich@gmail.com
+If you have any questions about the project you can reach me at my GitHub Profile: [github.com/RichLlew182](https://github.com/RichLlew182) or by email at richard.lee.llewellyn@gmail.com
 
