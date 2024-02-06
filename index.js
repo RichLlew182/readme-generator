@@ -152,7 +152,7 @@ function init() {
     .then((response) =>
       response ?
 
-      (console.log(response), writeToFile('output/README.md', response)) :
+      (writeToFile('output/README.md', response)) :
       console.log('You forgot to answer')
     );
 
