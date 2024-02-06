@@ -31,10 +31,12 @@ const questions = [{
     type: 'input',
     name: 'installation',
     message: 'Please provide additional installation information:',
+    // Only show this additional installation input if the installationChoice has been confirmed true
     when: (answers) => {
       return answers.installationChoice
     },
     filter: (input) => {
+      // If the input is an empty string, change it to 'N/A'
       return input === '' ? 'N/A' :
         `To install this app, please navigate to the relevant folder and then run the following in your terminal:
 ~~~sh
