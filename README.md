@@ -28,7 +28,7 @@ Module 11 Challenge for EDX Bootcamp
 ## Description
 
 <a href="https://github.com/RichLlew182/readme-generator">
-    <img src="./assets/images/weather-dashboard-screenshot.png" alt="Richard Llewellyn README Generator Screenshot">
+    <img src="./images/README-generator-screenshot.png" alt="Richard Llewellyn README Generator Screenshot">
   </a>
 
 <br>
@@ -89,6 +89,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 
 Richard Llewellyn - richard.lee.llewellyn@gmail.com 
+
+Sample README file: [https://github.com/RichLlew182/readme-generator](https://github.com/RichLlew182/readme-generator)
 
 Video Presentation Link: [https://richllew182.github.io/weather-dashboard/](https://richllew182.github.io/weather-dashboard/)
 
