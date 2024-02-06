@@ -139,7 +139,7 @@ function writeToFile(fileName, data) {
     if (err) {
       console.log(err)
     } else {
-      console.log('success')
+      console.log('Success!')
     }
   })
 }
