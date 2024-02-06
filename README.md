@@ -92,7 +92,7 @@ Richard Llewellyn - richard.lee.llewellyn@gmail.com
 
 Sample README file: [https://github.com/RichLlew182/readme-generator/blob/main/output/README.md](https://github.com/RichLlew182/readme-generator/blob/main/output/README.md)
 
-Video Presentation Link: [https://richllew182.github.io/weather-dashboard/](https://richllew182.github.io/weather-dashboard/)
+Video Presentation Link: [https://app.screencastify.com/v3/watch/3KnXy2QGvCR8S3SDuFWz](https://app.screencastify.com/v3/watch/3KnXy2QGvCR8S3SDuFWz)
 
 Project Repo Link: [https://github.com/RichLlew182/readme-generator](https://github.com/RichLlew182/readme-generator)
 
